@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/main"
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:icon="@drawable/icon_calendar"
+        android:title="캘린더"/>
+    <item
+        android:id="@+id/list"
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:icon="@drawable/icon_list"
+        android:title="리스트"/>
+    <item
+        android:id="@+id/card"
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:icon="@drawable/icon_card"
+        android:title="신용카드"/>
+    <item
+        android:id="@+id/stats"
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:icon="@drawable/icon_chart"
+        android:title="통계"/>
+    <item
+        android:id="@+id/set"
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:icon="@drawable/icon_set"
+        android:title="설정"/>
+</menu>
